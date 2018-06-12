@@ -4,9 +4,13 @@
 #include "cobiekt.h"
 #include "cciagnik.h"
 #include "csiewnik.h"
+#include "cplug.h"
+#include "GUI/gpole.h"
+
 
 class CPole : public CObiekt
-{
+{   GPole gpole;
+
     int szerokosc;
     int dlugosc;
     CCiagnik* FCiagnik;
@@ -26,7 +30,8 @@ class CPole : public CObiekt
 public:
     CPole(int szer,int dlu,int pocz_x,int pocz_y);
     void update();
-    void obsluz_pole(CCiagnik *trak);
+    bool obsluz_pole(CCiagnik *trak);
+    void znajdz_traktor(CCiagnik *trak);
 
 
 

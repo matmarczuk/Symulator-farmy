@@ -10,7 +10,7 @@ class CPole;
 class CCiagnik:public CPojazd
 {friend class CPole;
 public:
-    CCiagnik(std::string nazw,int udzw,int szyb);
+    CCiagnik(std::string nazw,int szyb);
     bool podczepMaszyne(CMaszyna *masz);
     void update();
 };

@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "nowa_gra.h"
 #include <QApplication>
 #include <QGraphicsScene>
 #include <QGraphicsRectItem>
@@ -25,10 +26,12 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    //MainWindow w;
-    //w.show();
+    MainWindow w;
+
+
 
     // create a scene
+    /*
         QGraphicsScene * scene = new QGraphicsScene();
 
         // create an item to put into the scene
@@ -42,25 +45,24 @@ int main(int argc, char *argv[])
         QGraphicsView * view = new QGraphicsView(scene);
 
         view->show();
+*/
 
 
 
 
-        CMapa *farma = new CMapa(200,200); //stworzenie mapy
-        CCzas czas(farma); //załatwione :D
-
-
-
+/*
         CPole* kapusta = new CPole(20,30,100,200);
         farma->dodaj_obiekt(kapusta);
 
-        CCiagnik* traktor1 = new CCiagnik("henio",2,3);
+        CCiagnik* traktor1 = new CCiagnik("henio",3);
         CSiewnik* siewnik1 = new CSiewnik("siem");
+        CPlug *plug1 = new CPlug("plug");
 
 
+        traktor1->podczepMaszyne(plug1);
+        kapusta->znajdz_traktor(traktor1);
 
 
-        kapusta->obsluz_pole(traktor1);
 
 
         //sprawdzenie czy element listy jest czymś

@@ -23,11 +23,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 
+
+
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
     budynki.cpp \
-    gui.cpp \
     cobiekt.cpp \
     cpole.cpp \
     cpojazd.cpp \
@@ -39,12 +40,15 @@ SOURCES += \
     cprzyczepa.cpp \
     citem.cpp \
     cmapa.cpp \
-    cczas.cpp
+    cczas.cpp \
+    nowa_gra.cpp \
+    oknogry.cpp \
+    GUI/gobiekt.cpp \
+    GUI/gpole.cpp
 
 HEADERS += \
         mainwindow.h \
     budynki.h \
-    gui.h \
     cobiekt.h \
     cpole.h \
     cpojazd.h \
@@ -56,7 +60,13 @@ HEADERS += \
     cprzyczepa.h \
     citem.h \
     cmapa.h \
-    cczas.h
+    cczas.h \
+    nowa_gra.h \
+    oknogry.h \
+    GUI/gobiekt.h \
+    GUI/gpole.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    nowa_gra.ui \
+    oknogry.ui

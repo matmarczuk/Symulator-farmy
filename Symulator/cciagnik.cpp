@@ -2,10 +2,9 @@
 
 using namespace std;
 
-CCiagnik::CCiagnik(string nazw="Ciagnik",int udzw = 2,int szyb=10)
+CCiagnik::CCiagnik(string nazw="Ciagnik",int szyb=10)
 {
     nazwa=nazw;
-    udzwig=udzw;
     szybkosc=szyb;
 
 }
