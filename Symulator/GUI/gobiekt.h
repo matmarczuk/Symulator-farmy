@@ -1,15 +1,18 @@
 #ifndef GOBIEKT_H
 #define GOBIEKT_H
 
+#include <QMainWindow>
+#include <QPainter>
+#include <QImage>
+#include <iostream>
+#include <QtWidgets>
 #include "cobiekt.h"
-#include "oknogry.h"
-
 
 
 class GObiekt : public CObiekt
-{
+{   QGraphicsItem* item;
 public:
-    static oknoGry* plansza;
+
     GObiekt();
 };
 

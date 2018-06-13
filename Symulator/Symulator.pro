@@ -44,7 +44,8 @@ SOURCES += \
     nowa_gra.cpp \
     oknogry.cpp \
     GUI/gobiekt.cpp \
-    GUI/gpole.cpp
+    GUI/gpole.cpp \
+    GUI/gmapa.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -64,9 +65,13 @@ HEADERS += \
     nowa_gra.h \
     oknogry.h \
     GUI/gobiekt.h \
-    GUI/gpole.h
+    GUI/gpole.h \
+    GUI/gmapa.h
 
 FORMS += \
         mainwindow.ui \
     nowa_gra.ui \
     oknogry.ui
+
+RESOURCES += \
+    farma.qrc

@@ -22,7 +22,9 @@ class oknoGry : public QMainWindow
 public:
     explicit oknoGry(QString nazwa,int wys,int szer,QWidget *parent = 0) ;
     ~oknoGry();
-    void paintEvent(QPaintEvent *);
+    //void paintEvent(QPaintEvent *);
+    void rysuj();
+    void update();
 
 private slots:
     void on_actionStart_triggered();
@@ -33,6 +35,11 @@ private:
     Ui::oknoGry *ui;
     CCzas* czas;
     CMapa* farma;
+    QGraphicsScene* scene;
+    QGraphicsRectItem * rect;
+    QGraphicsItem * item;
+    int counter = 20;
 };
+
 
 #endif // OKNOGRY_H

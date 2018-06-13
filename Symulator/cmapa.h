@@ -5,11 +5,13 @@
 #include <iostream>
 
 #include "cobiekt.h"
+#include "GUI/gmapa.h"
 
 using namespace std;
 
 class CMapa
 {
+    GMapa gmapa;
     int szerokosc;
     int wysokosc;
 
