@@ -4,7 +4,7 @@
 
 using namespace std;
 
-CPole::CPole(int szer=100,int dlu=100,int pocz_x=0,int pocz_y=0) : gpole(szer,dlu)
+CPole::CPole(int szer=100,int dlu=100,int pocz_x=0,int pocz_y=0)
 {
     szerokosc=szer;
     dlugosc=dlu;
@@ -35,10 +35,6 @@ void CPole::update()
                  cout<<"Podczepiona maszyna to plug"<<endl;
         }
     }
-
-
-    gpole.ustawKolor(200,0,0,szerokosc,dlugosc);
-    gpole.rysuj(x,y);
 
 }
 

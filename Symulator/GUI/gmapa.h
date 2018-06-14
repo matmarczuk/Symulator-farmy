@@ -14,9 +14,11 @@ using namespace std;
 class GMapa
 {
 public:
+
     list<GObiekt*> GList;
     GMapa();
     void step();
+    void dodaj_obiekt(GObiekt *obiekt);
 };
 
 #endif // GMAPA_H

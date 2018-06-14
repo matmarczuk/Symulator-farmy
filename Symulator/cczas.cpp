@@ -12,8 +12,8 @@ CCzas::CCzas(CMapa *map)
 
 void CCzas::krok()
 {
-    mapa->step();
-    gmapa->step();
+    mapa->step();//przejechanie po całej liscie el logicznych
+    gmapa->step();//przejechanie po całej liscie gui
 
     cout<<"Timer !"<<endl;
 }

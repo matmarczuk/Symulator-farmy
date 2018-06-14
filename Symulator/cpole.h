@@ -5,12 +5,14 @@
 #include "cciagnik.h"
 #include "csiewnik.h"
 #include "cplug.h"
-#include "GUI/gpole.h"
+
 
 
 class CPole : public CObiekt
-{   GPole gpole;
+{
+public:
 
+    int licznik = 0;
     int szerokosc;
     int dlugosc;
     CCiagnik* FCiagnik;
@@ -27,7 +29,7 @@ class CPole : public CObiekt
         ZYTO,
         KUKURYDZA
     }rodzaj;
-public:
+
     CPole(int szer,int dlu,int pocz_x,int pocz_y);
     void update();
     bool obsluz_pole(CCiagnik *trak);

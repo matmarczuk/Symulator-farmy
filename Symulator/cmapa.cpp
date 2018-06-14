@@ -1,32 +1,35 @@
 #include "cmapa.h"
 #include <iostream>
 
-CMapa::CMapa(int szer,int wys):gmapa()
+CMapa::CMapa(int szer,int wys)
 {
     szerokosc=szer;
     wysokosc=wys;
+    gmapa = new GMapa;
 
 }
 
 void CMapa::dodaj_obiekt(CObiekt *obiekt)
 {
     PList.push_back(obiekt);
-    //sprawdz co to za obiekt
+
     CObiekt* tmp_obj = obiekt;
     CPole* tmp_pole = dynamic_cast<CPole*>(tmp_obj);
     CCiagnik * tmp_ciagnik = dynamic_cast<CCiagnik*>(tmp_obj);
 
 
-    if(tmp_pole)
-    {
-
-    }
-    if(tmp_ciagnik)
-    {   GCiagnik* wsk_ciagnik = new GCiagnik;//stworzenie obiektu gui
-        wsk_ciagnik->ciagnik = tmp_ciagnik;//przywiazanie obiektu gui do logicznego
-        GObiekt* gobiekt = wsk_ciagnik; //polimorfizm
-        gmapa->GList.push_back(gobiekt);//obiekt na liscie
-    }
+        if(tmp_pole)
+        {
+            GPole* wsk_pole = new GPole(50,50);
+            GObiekt* gobiekt = wsk_pole;
+            gmapa->GList.push_back(gobiekt);
+        }
+        if(tmp_ciagnik)
+        {   GCiagnik* wsk_ciagnik = new GCiagnik(tmp_ciagnik);//stworzenie obiektu gui
+            //przywiazanie obiektu gui do logicznego
+            GObiekt* gobiekt = wsk_ciagnik; //polimorfizm
+            gmapa->GList.push_back(gobiekt);//obiekt na liscie
+        }
 
 }
 void CMapa::pokaz()

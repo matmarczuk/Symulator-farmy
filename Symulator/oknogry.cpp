@@ -19,7 +19,7 @@ oknoGry::oknoGry(QString nazwa,int wys,int szer,QWidget *parent) :
     scene->setItemIndexMethod(QGraphicsScene::NoIndex);
 
     rect = new QGraphicsRectItem();
-    rect->setRect(50,300,100,100);
+    rect->setRect(50,50,200,200);
     scene->addItem(rect);
 
 
@@ -34,6 +34,12 @@ oknoGry::oknoGry(QString nazwa,int wys,int szer,QWidget *parent) :
 
     czas = new CCzas(farma);    //stworzenie timera i przypisanie do mapy ~lista obiektow
 
+    CObiekt* traktor = new CCiagnik("henio",4);
+    farma->dodaj_obiekt(traktor);
+    //CObiekt*pole = new CPole(50,50,0,0);
+    //farma->dodaj_obiekt(pole);
+
+    scene->addItem(gmapa->GList.back()->item);
 
 }
 
@@ -46,8 +52,6 @@ oknoGry::~oknoGry()
 void oknoGry::on_actionStart_triggered()
 {
     czas->czas->start(1000);
-    cout<<"start symulacji"<<endl;
-    item->setPos(counter++,counter++);
 
 }
 
@@ -56,12 +60,6 @@ void oknoGry::on_actionStop_triggered()
 
     czas->czas->stop();
     cout<<"stop symulacji"<<endl;
-
-    QImage image(":/images/traktor.png");
-    item =  new QGraphicsPixmapItem( QPixmap::fromImage(image));
-    item->setPos(200,50);
-
-    scene->addItem(item);
 
 
 }

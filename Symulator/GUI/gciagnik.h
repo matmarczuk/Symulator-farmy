@@ -8,7 +8,7 @@ class GCiagnik : public GObiekt
 {
 public:
     CCiagnik* ciagnik;
-    GCiagnik();
+    GCiagnik(CCiagnik* log_ciagnik);
     void update_g();
 };
 

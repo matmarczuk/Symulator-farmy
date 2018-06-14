@@ -6,25 +6,40 @@ using namespace std;
 
 GPole::GPole(int szerokosc,int dlugosc) : obraz(szerokosc,dlugosc,QImage::Format_A2BGR30_Premultiplied)
 {
+    //QPainter paint(this);
+    //paint.drawImage(x,y,obraz);
+    ustawKolor(200,15,0);
 
 }
 
-void GPole::ustawKolor(int r,int g,int b,int szerokosc,int dlugosc)
+void GPole::ustawKolor(int r,int g,int b)
 {
-    for(int i=0;i<szerokosc;i++)
+    for(int i=0;i<this->log_pole->szerokosc;i++)
     {   QRgb RGB = qRgb(r,g,b);
-        for(int j=0;j<dlugosc;j++)
+        for(int j=0;j<this->log_pole->dlugosc;j++)
         {
               obraz.setPixel(i,j,RGB);
         }
     }
 }
 
-void GPole::rysuj(int x,int y)
+void GPole::update()
 {
 
-        //QPainter paint(this);
-        //paint.drawImage(x,y,obraz);
+    if(this->log_pole->status == 1)
+    {
+       //zmien kolor na
+
+
+    }
+    else if(this->log_pole->status ==2)
+    {
+
+    }
+    else if(this->log_pole->status ==3)
+    {
+
+    }
 
 
 }

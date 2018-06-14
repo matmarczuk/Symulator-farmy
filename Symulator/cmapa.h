@@ -9,6 +9,7 @@
 #include "cpole.h"
 #include "cciagnik.h"
 #include "GUI/gciagnik.h"
+#include "GUI/gpole.h"
 
 using namespace std;
 
