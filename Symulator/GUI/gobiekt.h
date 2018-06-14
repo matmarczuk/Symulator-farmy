@@ -10,10 +10,10 @@
 
 
 class GObiekt : public CObiekt
-{   QGraphicsItem* item;
+{
 public:
-
-    GObiekt();
+    QGraphicsItem* item;
+    virtual void update_g(){};
 };
 
 

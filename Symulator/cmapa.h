@@ -6,16 +6,20 @@
 
 #include "cobiekt.h"
 #include "GUI/gmapa.h"
+#include "cpole.h"
+#include "cciagnik.h"
+#include "GUI/gciagnik.h"
 
 using namespace std;
 
 class CMapa
 {
-    GMapa gmapa;
+
     int szerokosc;
     int wysokosc;
 
 public:
+    GMapa* gmapa;
     list<CObiekt*> PList;
     CMapa(int szer,int wys);
     void dodaj_obiekt(CObiekt *obiekt);

@@ -29,8 +29,10 @@ oknoGry::oknoGry(QString nazwa,int wys,int szer,QWidget *parent) :
     ui->graphicsView->setScene(scene);
     //ui->graphicsView->update();
 
-    farma = new CMapa(wys,szer); //stworzenie mapy
-    czas = new CCzas(farma);    //stworzenie timera
+    farma = new CMapa(wys,szer); //stworzenie mapy - gui tworzy sie z automatu
+    gmapa = farma->gmapa;//przekazanie wskaznika do gui dla okna
+
+    czas = new CCzas(farma);    //stworzenie timera i przypisanie do mapy ~lista obiektow
 
 
 }
@@ -51,6 +53,7 @@ void oknoGry::on_actionStart_triggered()
 
 void oknoGry::on_actionStop_triggered()
 {
+
     czas->czas->stop();
     cout<<"stop symulacji"<<endl;
 

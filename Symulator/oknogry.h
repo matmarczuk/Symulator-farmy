@@ -38,6 +38,7 @@ private:
     QGraphicsScene* scene;
     QGraphicsRectItem * rect;
     QGraphicsItem * item;
+    GMapa* gmapa;
     int counter = 20;
 };
 

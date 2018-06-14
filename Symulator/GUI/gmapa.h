@@ -12,9 +12,11 @@
 using namespace std;
 
 class GMapa
-{   list<GObiekt*> GList;
+{
 public:
+    list<GObiekt*> GList;
     GMapa();
+    void step();
 };
 
 #endif // GMAPA_H

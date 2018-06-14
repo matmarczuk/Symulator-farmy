@@ -45,7 +45,8 @@ SOURCES += \
     oknogry.cpp \
     GUI/gobiekt.cpp \
     GUI/gpole.cpp \
-    GUI/gmapa.cpp
+    GUI/gmapa.cpp \
+    GUI/gciagnik.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -66,7 +67,8 @@ HEADERS += \
     oknogry.h \
     GUI/gobiekt.h \
     GUI/gpole.h \
-    GUI/gmapa.h
+    GUI/gmapa.h \
+    GUI/gciagnik.h
 
 FORMS += \
         mainwindow.ui \
