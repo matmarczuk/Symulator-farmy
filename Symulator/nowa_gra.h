@@ -5,6 +5,9 @@
 #include "oknogry.h"
 #include "GUI/gobiekt.h"
 
+
+static oknoGry *okno;
+
 namespace Ui {
 class nowa_gra;
 }

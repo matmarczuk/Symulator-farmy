@@ -20,7 +20,7 @@ void CMapa::dodaj_obiekt(CObiekt *obiekt)
 
         if(tmp_pole)
         {
-            GPole* wsk_pole = new GPole(50,50);
+            GPole* wsk_pole = new GPole(tmp_pole->szerokosc,tmp_pole->dlugosc,tmp_pole->x,tmp_pole->y,tmp_pole);
             GObiekt* gobiekt = wsk_pole;
             gmapa->GList.push_back(gobiekt);
         }

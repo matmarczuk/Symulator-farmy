@@ -4,7 +4,6 @@
 #include <QtCore>
 #include "cmapa.h"
 
-
 class CCzas :public QObject
 {   Q_OBJECT
     CMapa *mapa;

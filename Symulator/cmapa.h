@@ -4,21 +4,23 @@
 #include <list>
 #include <iostream>
 
-#include "cobiekt.h"
+
 #include "GUI/gmapa.h"
-#include "cpole.h"
 #include "cciagnik.h"
+
+#include "cobiekt.h"
 #include "GUI/gciagnik.h"
 #include "GUI/gpole.h"
+
+
+
 
 using namespace std;
 
 class CMapa
 {
-
     int szerokosc;
     int wysokosc;
-
 public:
     GMapa* gmapa;
     list<CObiekt*> PList;

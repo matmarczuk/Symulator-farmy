@@ -1,5 +1,4 @@
 #include "budynki.h"
-#include "cmapa.h"
 
 CStodola::CStodola(int pocz_x,int pocz_y,int poj)
 {

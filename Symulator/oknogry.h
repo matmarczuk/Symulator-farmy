@@ -5,11 +5,10 @@
 #include <QPainter>
 #include <QImage>
 #include <iostream>
-#include "cczas.h"
 #include <QtWidgets>
+#include "cczas.h"
 
 class GObiekt;
-
 
 namespace Ui {
 class oknoGry;
@@ -31,10 +30,12 @@ private slots:
 
     void on_actionStop_triggered();
 
+public:
+    static CMapa* farma;
 private:
     Ui::oknoGry *ui;
     CCzas* czas;
-    CMapa* farma;
+
     QGraphicsScene* scene;
     QGraphicsRectItem * rect;
     QGraphicsItem * item;

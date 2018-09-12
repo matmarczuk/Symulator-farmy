@@ -5,8 +5,12 @@
 #include "cciagnik.h"
 #include "csiewnik.h"
 #include "cplug.h"
+#include "cmapa.h"
 
-
+#define ZAORANE 0
+#define POSIANE 1
+#define DO_ZBIORU 2
+#define ZAJETE 3
 
 class CPole : public CObiekt
 {
@@ -15,13 +19,9 @@ public:
     int licznik = 0;
     int szerokosc;
     int dlugosc;
-    CCiagnik* FCiagnik;
-    enum status_pola{
-        ZAORANE=0,
-        POSIANE,
-        DO_ZBIORU,
-        ZAJETE
-    }status;
+    CCiagnik* FCiagnik = NULL;
+    int postep = 0;
+    int status;
 
     enum rodzaj_uprawy{
         PRZENICA=0,
@@ -30,12 +30,11 @@ public:
         KUKURYDZA
     }rodzaj;
 
-    CPole(int szer,int dlu,int pocz_x,int pocz_y);
+    CPole(int szer,int dlu,int pocz_x,int pocz_y,int stat=1);
     void update();
     bool obsluz_pole(CCiagnik *trak);
-    void znajdz_traktor(CCiagnik *trak);
-
-
+    bool przywolaj_traktor();
+    bool czy_traktor_na_polu();
 
 };
 

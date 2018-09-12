@@ -2,11 +2,11 @@
 
 using namespace std;
 
-CCiagnik::CCiagnik(string nazw="Ciagnik",int szyb=10)
+CCiagnik::CCiagnik(string nazw="Ciagnik",int szyb=10,int pos=100)
 {
     nazwa=nazw;
     szybkosc=szyb;
-    x=100;
+    x=pos;
     y=400;
 
 }
@@ -25,7 +25,21 @@ bool CCiagnik::podczepMaszyne(CMaszyna* masz)
 }
 
 void CCiagnik::update()
-{
-    this->y = y-5;
-    cout<<"ciagnik update"<<endl;
+{   if(zajety)
+    {   switch(kier_ruchu)
+        {
+        case GORA:
+            this->y = y-10;
+            break;
+        case DOL:
+            this->y = y+10;
+            break;
+        case PRAWO:
+            this->x = x+10;
+            break;
+        case LEWO:
+            this->x = x-10;
+            break;
+        }
+    }
 }

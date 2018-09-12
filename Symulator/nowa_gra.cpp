@@ -27,7 +27,7 @@ void nowa_gra::on_pushButton_clicked()
     QString nazwa = ui->lineEdit->text();
 
 
-    oknoGry *okno = new oknoGry(nazwa,wys,szer);
+    okno = new oknoGry(nazwa,wys,szer);
 
 
     okno->show();
