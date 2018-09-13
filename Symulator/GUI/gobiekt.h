@@ -8,11 +8,16 @@
 #include <QtWidgets>
 #include "cobiekt.h"
 
-
+/** \brief Klasa graficzna obiektu
+ *
+ * zawiera informację o wyświetlanym itemie oraz funkcję wirtualną
+ */
 class GObiekt : public CObiekt
 {
 public:
+    ///element graficzny
     QGraphicsItem* item;
+    ///funkcja wirtualna do aktualizacji grafiki
     virtual void update_g(){};
 };
 

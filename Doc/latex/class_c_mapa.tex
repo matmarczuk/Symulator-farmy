@@ -1,0 +1,104 @@
+\hypertarget{class_c_mapa}{}\section{C\+Mapa Class Reference}
+\label{class_c_mapa}\index{C\+Mapa@{C\+Mapa}}
+
+
+Klasa logiczna mapy gry.  
+
+
+
+
+{\ttfamily \#include $<$cmapa.\+h$>$}
+
+
+
+Collaboration diagram for C\+Mapa\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=137pt]{class_c_mapa__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_mapa_a52d842556392c591fc35475ef6e2c497}{C\+Mapa}} (int szer, int wys)
+\begin{DoxyCompactList}\small\item\em konstruktor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_c_mapa_a52368cb5130167cf5a610b2d539a2fad}{dodaj\+\_\+obiekt}} (\mbox{\hyperlink{class_c_obiekt}{C\+Obiekt}} $\ast$obiekt)
+\begin{DoxyCompactList}\small\item\em funkcja dodająca obiekt do mapy \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_mapa_a60c1223c1f3cc31299b2a48699b7e6e1}\label{class_c_mapa_a60c1223c1f3cc31299b2a48699b7e6e1}} 
+void {\bfseries pokaz} ()
+\item 
+void \mbox{\hyperlink{class_c_mapa_acbaf866a435bd4049da8d9432a482c61}{step}} ()
+\begin{DoxyCompactList}\small\item\em funkcja aktualizująca do symulacji \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_mapa_a94174a37915e842027d62c2305bdf7ab}\label{class_c_mapa_a94174a37915e842027d62c2305bdf7ab}} 
+\mbox{\hyperlink{class_g_mapa}{G\+Mapa}} $\ast$ \mbox{\hyperlink{class_c_mapa_a94174a37915e842027d62c2305bdf7ab}{gmapa}}
+\begin{DoxyCompactList}\small\item\em wskaznik na obiekt gui \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_mapa_a460aba92d936a91da33e5a0ba47100da}\label{class_c_mapa_a460aba92d936a91da33e5a0ba47100da}} 
+list$<$ \mbox{\hyperlink{class_c_obiekt}{C\+Obiekt}} $\ast$ $>$ \mbox{\hyperlink{class_c_mapa_a460aba92d936a91da33e5a0ba47100da}{P\+List}}
+\begin{DoxyCompactList}\small\item\em lista obiektow logicznych na mapie \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa logiczna mapy gry. 
+
+Przechowuje listę obiektów i nimi manipuluje 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_mapa_a52d842556392c591fc35475ef6e2c497}\label{class_c_mapa_a52d842556392c591fc35475ef6e2c497}} 
+\index{C\+Mapa@{C\+Mapa}!C\+Mapa@{C\+Mapa}}
+\index{C\+Mapa@{C\+Mapa}!C\+Mapa@{C\+Mapa}}
+\subsubsection{\texorpdfstring{C\+Mapa()}{CMapa()}}
+{\footnotesize\ttfamily C\+Mapa\+::\+C\+Mapa (\begin{DoxyParamCaption}\item[{int}]{szer,  }\item[{int}]{wys }\end{DoxyParamCaption})}
+
+
+
+konstruktor 
+
+Konstruktor klasy \mbox{\hyperlink{class_c_mapa}{C\+Mapa}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Szerokość} & mapy \\
+\hline
+{\em Wysokość} & mapy \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_mapa_a52368cb5130167cf5a610b2d539a2fad}\label{class_c_mapa_a52368cb5130167cf5a610b2d539a2fad}} 
+\index{C\+Mapa@{C\+Mapa}!dodaj\+\_\+obiekt@{dodaj\+\_\+obiekt}}
+\index{dodaj\+\_\+obiekt@{dodaj\+\_\+obiekt}!C\+Mapa@{C\+Mapa}}
+\subsubsection{\texorpdfstring{dodaj\+\_\+obiekt()}{dodaj\_obiekt()}}
+{\footnotesize\ttfamily void C\+Mapa\+::dodaj\+\_\+obiekt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_obiekt}{C\+Obiekt}} $\ast$}]{obiekt }\end{DoxyParamCaption})}
+
+
+
+funkcja dodająca obiekt do mapy 
+
+Funkcja dodająca obiekt do mapy.
+
+
+\begin{DoxyParams}{Parameters}
+{\em wskaźnik} & do obiektu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_mapa_acbaf866a435bd4049da8d9432a482c61}\label{class_c_mapa_acbaf866a435bd4049da8d9432a482c61}} 
+\index{C\+Mapa@{C\+Mapa}!step@{step}}
+\index{step@{step}!C\+Mapa@{C\+Mapa}}
+\subsubsection{\texorpdfstring{step()}{step()}}
+{\footnotesize\ttfamily void C\+Mapa\+::step (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja aktualizująca do symulacji 
+
+F\+Unkcja przeczesuje listę obiektów i regularnie je aktualizuje. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cmapa.\+h\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cmapa.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="GObiekt" name="GObiekt">
+<area shape="rect" id="node1" title="Klasa graficzna obiektu." alt="" coords="104,80,175,107"/>
+<area shape="rect" id="node3" href="$class_g_ciagnik.html" title="Klasa graficzna ciagnika." alt="" coords="5,155,81,181"/>
+<area shape="rect" id="node4" href="$class_g_garaz.html" title="Klasa graficzna garazu." alt="" coords="106,155,173,181"/>
+<area shape="rect" id="node5" href="$class_g_pole.html" title="Klasa graficzna pola." alt="" coords="197,155,255,181"/>
+<area shape="rect" id="node2" href="$class_c_obiekt.html" title="Klasa logiczna obiektu." alt="" coords="104,5,175,32"/>
+</map>

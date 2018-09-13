@@ -1,0 +1,6 @@
+<map id="oknoGry" name="oknoGry">
+<area shape="rect" id="node1" title="Klasa okna gry." alt="" coords="61,184,131,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,112,121"/>
+<area shape="rect" id="node3" href="$class_c_mapa.html" title="Klasa logiczna mapy gry." alt="" coords="136,95,200,121"/>
+<area shape="rect" id="node4" href="$class_g_mapa.html" title="Klasa graficzna mapy gry." alt="" coords="136,5,200,32"/>
+</map>

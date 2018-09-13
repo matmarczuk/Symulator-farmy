@@ -3,7 +3,10 @@
 
 #include "cpojazd.h"
 #include "cciagnik.h"
-
+/** \brief Ogólna klasa maszyny
+ *
+ *
+ */
 class CMaszyna : public CObiekt
 {
     friend class CCiagnik;

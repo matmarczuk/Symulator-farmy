@@ -11,7 +11,10 @@ static oknoGry *okno;
 namespace Ui {
 class nowa_gra;
 }
-
+/** \brief Klasa nowej gry
+ *
+ * Przechowuje parametry podane przez użytkownika przy zakładaniu nowej gry
+ */
 class nowa_gra : public QDialog
 {
     Q_OBJECT

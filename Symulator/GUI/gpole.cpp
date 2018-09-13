@@ -12,7 +12,7 @@ GPole::GPole(int szerokosc,int dlugosc,int pocz_x,int pocz_y,CPole *l_pole)
     this->log_pole = l_pole;
     rect = new QGraphicsRectItem();
     rect->setRect(pocz_x,pocz_y,szerokosc,dlugosc);
-    rect->setBrush(Qt::yellow);
+    rect->setBrush(QColor(102,51,0));
     this->item =  rect;
 }
 
@@ -41,6 +41,10 @@ void GPole::update_g()
     else if(this->log_pole->status == DO_ZBIORU)
     {
         rect->setBrush(Qt::yellow);
+    }
+    else if(this->log_pole->status == DO_ORANIA)
+    {
+        rect->setBrush(QColor(255,140,0));
     }
 
 

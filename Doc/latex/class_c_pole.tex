@@ -1,0 +1,194 @@
+\hypertarget{class_c_pole}{}\section{C\+Pole Class Reference}
+\label{class_c_pole}\index{C\+Pole@{C\+Pole}}
+
+
+Klasa logiczna pola.  
+
+
+
+
+{\ttfamily \#include $<$cpole.\+h$>$}
+
+
+
+Inheritance diagram for C\+Pole\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=133pt]{class_c_pole__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Pole\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{class_c_pole__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_pole_ae1a4d6f49c1d06a7bd4b1a2a7a1223fa}\label{class_c_pole_ae1a4d6f49c1d06a7bd4b1a2a7a1223fa}} 
+enum \mbox{\hyperlink{class_c_pole_ae1a4d6f49c1d06a7bd4b1a2a7a1223fa}{rodzaj\+\_\+uprawy}} \{ {\bfseries P\+R\+Z\+E\+N\+I\+CA} =0, 
+{\bfseries T\+R\+A\+WA}, 
+{\bfseries Z\+Y\+TO}, 
+{\bfseries K\+U\+K\+U\+R\+Y\+D\+ZA}
+ \}
+\begin{DoxyCompactList}\small\item\em rodzaj uprawy \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_pole_a34ef39ce57a6af1443cfffbaf19f2436}{C\+Pole}} (int szer, int dlu, int pocz\+\_\+x, int pocz\+\_\+y, int stat=1)
+\begin{DoxyCompactList}\small\item\em konstruktor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_c_pole_a29afebef6f17a729f4b4aabaad1dc41d}{update}} ()
+\begin{DoxyCompactList}\small\item\em funkcja wirtualna do symulacji \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_a90243c7195b6847fbd46efb90f2424c0}\label{class_c_pole_a90243c7195b6847fbd46efb90f2424c0}} 
+bool \mbox{\hyperlink{class_c_pole_a90243c7195b6847fbd46efb90f2424c0}{obsluz\+\_\+pole}} (\mbox{\hyperlink{class_c_ciagnik}{C\+Ciagnik}} $\ast$trak)
+\begin{DoxyCompactList}\small\item\em funkcja obslugująca pole \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_c_pole_ad55d0b7e22aa43541acfa150ffbaa655}{przywolaj\+\_\+traktor}} ()
+\begin{DoxyCompactList}\small\item\em funkcja przywołująca ciągnik \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_c_pole_a2b82af53c3497611b96f05c4dc717e0a}{czy\+\_\+traktor\+\_\+na\+\_\+polu}} ()
+\begin{DoxyCompactList}\small\item\em funkcja sprawdzająca obecność ciągnika na polu \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_c_pole_a2272e326d39402016cf59132a5af78cf}{znajdz\+\_\+traktor}} ()
+\begin{DoxyCompactList}\small\item\em funkcja znajdująca wolny traktor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_c_pole_abfd3ba6eda25112d187886928a390e18}{odeslij\+\_\+traktor}} ()
+\begin{DoxyCompactList}\small\item\em funkcja odsyłająca traktor do garazu \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_c_pole_afe55a2c80adfa160d1cbda99300b34a3}{czy\+\_\+traktor\+\_\+w\+\_\+garazu}} ()
+\begin{DoxyCompactList}\small\item\em funkcja sprawdzająca obecność traktora w garażu \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_pole_a5e815f6698e04dc22cdf23e9b7e4e51b}\label{class_c_pole_a5e815f6698e04dc22cdf23e9b7e4e51b}} 
+int \mbox{\hyperlink{class_c_pole_a5e815f6698e04dc22cdf23e9b7e4e51b}{licznik}} = 0
+\begin{DoxyCompactList}\small\item\em pomocniczny licznik symulacji \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_acce333e40bc651868d7f4a465441adab}\label{class_c_pole_acce333e40bc651868d7f4a465441adab}} 
+int \mbox{\hyperlink{class_c_pole_acce333e40bc651868d7f4a465441adab}{szerokosc}}
+\begin{DoxyCompactList}\small\item\em szerokosc pola \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_a7bfa9aaa5ad6d2ac00ab3b1f55a03258}\label{class_c_pole_a7bfa9aaa5ad6d2ac00ab3b1f55a03258}} 
+int \mbox{\hyperlink{class_c_pole_a7bfa9aaa5ad6d2ac00ab3b1f55a03258}{dlugosc}}
+\begin{DoxyCompactList}\small\item\em dlugosc pola \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_af771b51921f94dd0198a8a64e44bf4be}\label{class_c_pole_af771b51921f94dd0198a8a64e44bf4be}} 
+\mbox{\hyperlink{class_c_ciagnik}{C\+Ciagnik}} $\ast$ \mbox{\hyperlink{class_c_pole_af771b51921f94dd0198a8a64e44bf4be}{F\+Ciagnik}} = N\+U\+LL
+\begin{DoxyCompactList}\small\item\em wskaznik ciagnika który obsluguje pole \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_aed025ff8ea865d94f88e5b40e9ea132c}\label{class_c_pole_aed025ff8ea865d94f88e5b40e9ea132c}} 
+\mbox{\hyperlink{class_c_garaz}{C\+Garaz}} $\ast$ \mbox{\hyperlink{class_c_pole_aed025ff8ea865d94f88e5b40e9ea132c}{F\+Garaz}} = N\+U\+LL
+\begin{DoxyCompactList}\small\item\em wskaznik garazu który obsługuje pole \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_a6bdbbef0f210d916197c81af56f71ef6}\label{class_c_pole_a6bdbbef0f210d916197c81af56f71ef6}} 
+int \mbox{\hyperlink{class_c_pole_a6bdbbef0f210d916197c81af56f71ef6}{postep}} = 0
+\begin{DoxyCompactList}\small\item\em wskaźnik postępu \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_abbe82aa50aab4af383b0009924f9b7ef}\label{class_c_pole_abbe82aa50aab4af383b0009924f9b7ef}} 
+int \mbox{\hyperlink{class_c_pole_abbe82aa50aab4af383b0009924f9b7ef}{status}}
+\begin{DoxyCompactList}\small\item\em status pola \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pole_a7ce2e4b14eb9a628dd163978999954e5}\label{class_c_pole_a7ce2e4b14eb9a628dd163978999954e5}} 
+enum \mbox{\hyperlink{class_c_pole_ae1a4d6f49c1d06a7bd4b1a2a7a1223fa}{C\+Pole\+::rodzaj\+\_\+uprawy}} {\bfseries rodzaj}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa logiczna pola. 
+
+Operuje logiką gry 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_pole_a34ef39ce57a6af1443cfffbaf19f2436}\label{class_c_pole_a34ef39ce57a6af1443cfffbaf19f2436}} 
+\index{C\+Pole@{C\+Pole}!C\+Pole@{C\+Pole}}
+\index{C\+Pole@{C\+Pole}!C\+Pole@{C\+Pole}}
+\subsubsection{\texorpdfstring{C\+Pole()}{CPole()}}
+{\footnotesize\ttfamily C\+Pole\+::\+C\+Pole (\begin{DoxyParamCaption}\item[{int}]{szer = {\ttfamily 100},  }\item[{int}]{dlu = {\ttfamily 100},  }\item[{int}]{pocz\+\_\+x = {\ttfamily 0},  }\item[{int}]{pocz\+\_\+y = {\ttfamily 0},  }\item[{int}]{stat = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+konstruktor 
+
+Konstruktor klasy \mbox{\hyperlink{class_c_pole}{C\+Pole}}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em szerokosc} & pola \\
+\hline
+{\em dlugosc} & pola \\
+\hline
+{\em pozycja} & poczatkowa x \\
+\hline
+{\em pozycja} & poczatkowa y \\
+\hline
+{\em początkowy} & status \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_pole_a2b82af53c3497611b96f05c4dc717e0a}\label{class_c_pole_a2b82af53c3497611b96f05c4dc717e0a}} 
+\index{C\+Pole@{C\+Pole}!czy\+\_\+traktor\+\_\+na\+\_\+polu@{czy\+\_\+traktor\+\_\+na\+\_\+polu}}
+\index{czy\+\_\+traktor\+\_\+na\+\_\+polu@{czy\+\_\+traktor\+\_\+na\+\_\+polu}!C\+Pole@{C\+Pole}}
+\subsubsection{\texorpdfstring{czy\+\_\+traktor\+\_\+na\+\_\+polu()}{czy\_traktor\_na\_polu()}}
+{\footnotesize\ttfamily bool C\+Pole\+::czy\+\_\+traktor\+\_\+na\+\_\+polu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja sprawdzająca obecność ciągnika na polu 
+
+Funkcja sprawdzająca obecność traktora Funkcja sprawdzająca obecność traktora na polu. \mbox{\Hypertarget{class_c_pole_afe55a2c80adfa160d1cbda99300b34a3}\label{class_c_pole_afe55a2c80adfa160d1cbda99300b34a3}} 
+\index{C\+Pole@{C\+Pole}!czy\+\_\+traktor\+\_\+w\+\_\+garazu@{czy\+\_\+traktor\+\_\+w\+\_\+garazu}}
+\index{czy\+\_\+traktor\+\_\+w\+\_\+garazu@{czy\+\_\+traktor\+\_\+w\+\_\+garazu}!C\+Pole@{C\+Pole}}
+\subsubsection{\texorpdfstring{czy\+\_\+traktor\+\_\+w\+\_\+garazu()}{czy\_traktor\_w\_garazu()}}
+{\footnotesize\ttfamily bool C\+Pole\+::czy\+\_\+traktor\+\_\+w\+\_\+garazu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja sprawdzająca obecność traktora w garażu 
+
+Funkcja sprawdzająca obecność traktora Funkcja sprawdzająca obecność traktora w garażu. \mbox{\Hypertarget{class_c_pole_abfd3ba6eda25112d187886928a390e18}\label{class_c_pole_abfd3ba6eda25112d187886928a390e18}} 
+\index{C\+Pole@{C\+Pole}!odeslij\+\_\+traktor@{odeslij\+\_\+traktor}}
+\index{odeslij\+\_\+traktor@{odeslij\+\_\+traktor}!C\+Pole@{C\+Pole}}
+\subsubsection{\texorpdfstring{odeslij\+\_\+traktor()}{odeslij\_traktor()}}
+{\footnotesize\ttfamily void C\+Pole\+::odeslij\+\_\+traktor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja odsyłająca traktor do garazu 
+
+Funkcja odsyłająca traktor Odsyła traktor z powrotem do garażu. \mbox{\Hypertarget{class_c_pole_ad55d0b7e22aa43541acfa150ffbaa655}\label{class_c_pole_ad55d0b7e22aa43541acfa150ffbaa655}} 
+\index{C\+Pole@{C\+Pole}!przywolaj\+\_\+traktor@{przywolaj\+\_\+traktor}}
+\index{przywolaj\+\_\+traktor@{przywolaj\+\_\+traktor}!C\+Pole@{C\+Pole}}
+\subsubsection{\texorpdfstring{przywolaj\+\_\+traktor()}{przywolaj\_traktor()}}
+{\footnotesize\ttfamily void C\+Pole\+::przywolaj\+\_\+traktor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja przywołująca ciągnik 
+
+Funkcja przywołująca traktor.
+
+wymusza ruch traktora na odpowiednie pole \mbox{\Hypertarget{class_c_pole_a29afebef6f17a729f4b4aabaad1dc41d}\label{class_c_pole_a29afebef6f17a729f4b4aabaad1dc41d}} 
+\index{C\+Pole@{C\+Pole}!update@{update}}
+\index{update@{update}!C\+Pole@{C\+Pole}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void C\+Pole\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+funkcja wirtualna do symulacji 
+
+Funkcja aktualizująca status pola Główna funkcja odpowiadająca za mechanikę gry. 
+
+Reimplemented from \mbox{\hyperlink{class_c_obiekt}{C\+Obiekt}}.
+
+\mbox{\Hypertarget{class_c_pole_a2272e326d39402016cf59132a5af78cf}\label{class_c_pole_a2272e326d39402016cf59132a5af78cf}} 
+\index{C\+Pole@{C\+Pole}!znajdz\+\_\+traktor@{znajdz\+\_\+traktor}}
+\index{znajdz\+\_\+traktor@{znajdz\+\_\+traktor}!C\+Pole@{C\+Pole}}
+\subsubsection{\texorpdfstring{znajdz\+\_\+traktor()}{znajdz\_traktor()}}
+{\footnotesize\ttfamily bool C\+Pole\+::znajdz\+\_\+traktor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja znajdująca wolny traktor 
+
+Funkcja do znajdowania wolnego ciągnika.
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cpole.\+h\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cpole.\+cpp\end{DoxyCompactItemize}

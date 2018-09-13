@@ -3,21 +3,16 @@
 
 
 #include "cmapa.h"
-
+/** \brief Klasa obiektu stodoly
+ *
+ * W stodole skladowane sa zboża
+ */
 class CStodola : public CObiekt
 {   int pojemnosc;
 public:
     CStodola(int pocz_x,int pocz_y,int poj);
 };
 
-class CGaraz :public CObiekt
-{
-    int l_pojazdow;
-    int l_maszyn;
-public:
-    CGaraz(int pocz_x,int pocz_y,int l_poj,int l_masz);
-
-};
 
 class CZbiornik :public CObiekt
 {

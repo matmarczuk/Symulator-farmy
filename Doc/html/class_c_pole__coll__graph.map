@@ -1,0 +1,8 @@
+<map id="CPole" name="CPole">
+<area shape="rect" id="node1" title="Klasa logiczna pola." alt="" coords="64,361,123,388"/>
+<area shape="rect" id="node2" href="$class_c_obiekt.html" title="Klasa logiczna obiektu." alt="" coords="61,5,131,32"/>
+<area shape="rect" id="node4" href="$class_c_pojazd.html" title="Klasa logiczna pojazdów." alt="" coords="57,183,129,209"/>
+<area shape="rect" id="node5" href="$class_c_maszyna.html" title="Ogólna klasa maszyny." alt="" coords="93,81,179,108"/>
+<area shape="rect" id="node6" href="$class_c_garaz.html" title="Klasa logiczna garazu." alt="" coords="180,132,247,159"/>
+<area shape="rect" id="node3" href="$class_c_ciagnik.html" title="Klasa logiczna Ciągnika." alt="" coords="55,272,131,299"/>
+</map>

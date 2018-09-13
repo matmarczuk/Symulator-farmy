@@ -4,7 +4,10 @@
 #include "cmaszyna.h"
 
 using namespace std;
-
+/** \brief Klasa logiczna przyczepy
+ *
+ *
+ */
 class CPrzyczepa : public CMaszyna
 {
 

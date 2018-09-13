@@ -6,6 +6,9 @@ GCiagnik::GCiagnik(CCiagnik* log_ciagnik)
     image = image.scaled(30,30,Qt::KeepAspectRatio);
 
     this->item =  new QGraphicsPixmapItem( QPixmap::fromImage(image));
+    this->x = ciagnik->x;
+    this->y = ciagnik->y;
+    this->item->setPos(x,y);
 
 }
 

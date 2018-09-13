@@ -1,0 +1,91 @@
+\hypertarget{class_c_pojazd}{}\section{C\+Pojazd Class Reference}
+\label{class_c_pojazd}\index{C\+Pojazd@{C\+Pojazd}}
+
+
+Klasa logiczna pojazdów.  
+
+
+
+
+{\ttfamily \#include $<$cpojazd.\+h$>$}
+
+
+
+Inheritance diagram for C\+Pojazd\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_c_pojazd__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Pojazd\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_c_pojazd__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_pojazd_a6ca2c403d42e94f6de86123afb30f63f}\label{class_c_pojazd_a6ca2c403d42e94f6de86123afb30f63f}} 
+void \mbox{\hyperlink{class_c_pojazd_a6ca2c403d42e94f6de86123afb30f63f}{podczep}} (\mbox{\hyperlink{class_c_maszyna}{C\+Maszyna}} $\ast$masz)
+\begin{DoxyCompactList}\small\item\em funkcja podczepiająca maszynę \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_c_pojazd_ae5b5838c2c769399f73216e02c181c84}{jedz}} (int des\+\_\+x, int des\+\_\+y)
+\begin{DoxyCompactList}\small\item\em funkcja poruszająca \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_pojazd_a775be815b536108353245d8a530b08b8}\label{class_c_pojazd_a775be815b536108353245d8a530b08b8}} 
+int \mbox{\hyperlink{class_c_pojazd_a775be815b536108353245d8a530b08b8}{kier\+\_\+ruchu}} = G\+O\+RA
+\begin{DoxyCompactList}\small\item\em kierunek ruchu pojazdu \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pojazd_a0a1e7b87a4551b76b3f279a14fe043b7}\label{class_c_pojazd_a0a1e7b87a4551b76b3f279a14fe043b7}} 
+bool \mbox{\hyperlink{class_c_pojazd_a0a1e7b87a4551b76b3f279a14fe043b7}{zajety}} = false
+\begin{DoxyCompactList}\small\item\em zajetosc pojazdu \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_pojazd_abe30e6d7e643b969f41c9914ba97280a}\label{class_c_pojazd_abe30e6d7e643b969f41c9914ba97280a}} 
+\mbox{\hyperlink{class_c_maszyna}{C\+Maszyna}} $\ast$ \mbox{\hyperlink{class_c_pojazd_abe30e6d7e643b969f41c9914ba97280a}{F\+Maszyna}}
+\begin{DoxyCompactList}\small\item\em wskażnik podczepionej maszyny \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pojazd_accde27ae44aab73f56cfb2b497e30eab}\label{class_c_pojazd_accde27ae44aab73f56cfb2b497e30eab}} 
+int \mbox{\hyperlink{class_c_pojazd_accde27ae44aab73f56cfb2b497e30eab}{paliwo}}
+\begin{DoxyCompactList}\small\item\em paliwo w pojeździe \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_pojazd_a5af2e841175da5b531f77d46879dd56c}\label{class_c_pojazd_a5af2e841175da5b531f77d46879dd56c}} 
+int \mbox{\hyperlink{class_c_pojazd_a5af2e841175da5b531f77d46879dd56c}{szybkosc}}
+\begin{DoxyCompactList}\small\item\em szybkosc pojazdu \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa logiczna pojazdów. 
+
+Przechowuje wspolne atrybuty pojazdów 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_pojazd_ae5b5838c2c769399f73216e02c181c84}\label{class_c_pojazd_ae5b5838c2c769399f73216e02c181c84}} 
+\index{C\+Pojazd@{C\+Pojazd}!jedz@{jedz}}
+\index{jedz@{jedz}!C\+Pojazd@{C\+Pojazd}}
+\subsubsection{\texorpdfstring{jedz()}{jedz()}}
+{\footnotesize\ttfamily void C\+Pojazd\+::jedz (\begin{DoxyParamCaption}\item[{int}]{des\+\_\+x,  }\item[{int}]{des\+\_\+y }\end{DoxyParamCaption})}
+
+
+
+funkcja poruszająca 
+
+Funkcja poruszania się pojazdu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em destynacja} & x \\
+\hline
+{\em destynacja} & y \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cpojazd.\+h\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cpojazd.\+cpp\end{DoxyCompactItemize}

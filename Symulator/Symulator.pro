@@ -46,7 +46,9 @@ SOURCES += \
     GUI/gobiekt.cpp \
     GUI/gpole.cpp \
     GUI/gmapa.cpp \
-    GUI/gciagnik.cpp
+    GUI/gciagnik.cpp \
+    cgaraz.cpp \
+    GUI/ggaraz.cpp
 
 HEADERS += \
         mainwindow.h \
@@ -68,7 +70,9 @@ HEADERS += \
     GUI/gobiekt.h \
     GUI/gpole.h \
     GUI/gmapa.h \
-    GUI/gciagnik.h
+    GUI/gciagnik.h \
+    cgaraz.h \
+    GUI/ggaraz.h
 
 FORMS += \
         mainwindow.ui \

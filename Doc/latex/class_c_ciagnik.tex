@@ -1,0 +1,117 @@
+\hypertarget{class_c_ciagnik}{}\section{C\+Ciagnik Class Reference}
+\label{class_c_ciagnik}\index{C\+Ciagnik@{C\+Ciagnik}}
+
+
+Klasa logiczna Ciągnika.  
+
+
+
+
+{\ttfamily \#include $<$cciagnik.\+h$>$}
+
+
+
+Inheritance diagram for C\+Ciagnik\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=137pt]{class_c_ciagnik__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for C\+Ciagnik\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_c_ciagnik__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_ciagnik_a82a94c1b3314d7cc4932b146f2716bb2}{C\+Ciagnik}} (std\+::string nazw, int szyb, int pos)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_c_ciagnik_ab4519a3434355d84543e76c37406cf62}{podczep\+Maszyne}} (\mbox{\hyperlink{class_c_maszyna}{C\+Maszyna}} $\ast$masz)
+\begin{DoxyCompactList}\small\item\em Funkcja. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_c_ciagnik_a1596597ae77f6e71919e5c17affddad1}{update}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wirtualna aktualizująca stan symulacji. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_c_ciagnik_aeb82fbb94ecd856bf3f94cc0e8a87812}\label{class_c_ciagnik_aeb82fbb94ecd856bf3f94cc0e8a87812}} 
+\mbox{\hyperlink{class_c_ciagnik_aeb82fbb94ecd856bf3f94cc0e8a87812}{$\sim$\+C\+Ciagnik}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_ciagnik_aa7baff0f917ca57920df8a09ac0982b0}\label{class_c_ciagnik_aa7baff0f917ca57920df8a09ac0982b0}} 
+class {\bfseries C\+Pole}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Klasa logiczna Ciągnika. 
+
+Klasa obiektu Ciągnik odpowiadająca za logikę symulacji 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_ciagnik_a82a94c1b3314d7cc4932b146f2716bb2}\label{class_c_ciagnik_a82a94c1b3314d7cc4932b146f2716bb2}} 
+\index{C\+Ciagnik@{C\+Ciagnik}!C\+Ciagnik@{C\+Ciagnik}}
+\index{C\+Ciagnik@{C\+Ciagnik}!C\+Ciagnik@{C\+Ciagnik}}
+\subsubsection{\texorpdfstring{C\+Ciagnik()}{CCiagnik()}}
+{\footnotesize\ttfamily C\+Ciagnik\+::\+C\+Ciagnik (\begin{DoxyParamCaption}\item[{std\+::string}]{nazw,  }\item[{int}]{szyb,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazwa} & ciagnika \\
+\hline
+{\em szybkosc} & ciagnika \\
+\hline
+{\em pozycja} & poczatkowa \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_ciagnik_ab4519a3434355d84543e76c37406cf62}\label{class_c_ciagnik_ab4519a3434355d84543e76c37406cf62}} 
+\index{C\+Ciagnik@{C\+Ciagnik}!podczep\+Maszyne@{podczep\+Maszyne}}
+\index{podczep\+Maszyne@{podczep\+Maszyne}!C\+Ciagnik@{C\+Ciagnik}}
+\subsubsection{\texorpdfstring{podczep\+Maszyne()}{podczepMaszyne()}}
+{\footnotesize\ttfamily bool C\+Ciagnik\+::podczep\+Maszyne (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_maszyna}{C\+Maszyna}} $\ast$}]{masz }\end{DoxyParamCaption})}
+
+
+
+Funkcja. 
+
+Funkcja podczepiająca maszynę
+
+
+\begin{DoxyParams}{Parameters}
+{\em wskaźnik} & na maszynę \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_ciagnik_a1596597ae77f6e71919e5c17affddad1}\label{class_c_ciagnik_a1596597ae77f6e71919e5c17affddad1}} 
+\index{C\+Ciagnik@{C\+Ciagnik}!update@{update}}
+\index{update@{update}!C\+Ciagnik@{C\+Ciagnik}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void C\+Ciagnik\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Funkcja wirtualna aktualizująca stan symulacji. 
+
+funkcja zmieniająca położenie
+
+funkcja zmieniająca położenie w zależności od kiernku ruchu 
+
+Reimplemented from \mbox{\hyperlink{class_c_obiekt}{C\+Obiekt}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cciagnik.\+h\item 
+/home/mateusz/\+P\+J\+C/\+Farma/\+Symulator-\/farmy/\+Symulator/cciagnik.\+cpp\end{DoxyCompactItemize}

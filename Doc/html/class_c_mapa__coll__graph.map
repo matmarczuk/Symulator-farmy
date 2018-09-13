@@ -1,0 +1,4 @@
+<map id="CMapa" name="CMapa">
+<area shape="rect" id="node1" title="Klasa logiczna mapy gry." alt="" coords="5,95,69,121"/>
+<area shape="rect" id="node2" href="$class_g_mapa.html" title="Klasa graficzna mapy gry." alt="" coords="5,5,69,32"/>
+</map>

@@ -13,7 +13,10 @@ class GObiekt;
 namespace Ui {
 class oknoGry;
 }
-
+/** \brief Klasa okna gry
+ *
+ * Operuje obiektami graficznymi wyswietlanymi w grze
+ */
 class oknoGry : public QMainWindow
 {
     Q_OBJECT

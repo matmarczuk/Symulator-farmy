@@ -9,7 +9,10 @@
 namespace Ui {
 class MainWindow;
 }
-
+/** \brief Klasa głównego okna
+ *
+ * Przechowuje dane okna, obsluguje callbacki od przyciskow
+ */
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
