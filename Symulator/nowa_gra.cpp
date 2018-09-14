@@ -5,7 +5,9 @@
 #include <stdlib.h>
 using namespace std;
 
-
+/** \brief konstruktor nowej gry
+ * \param wskaźnik do widgetu dialogowego
+ */
 nowa_gra::nowa_gra(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::nowa_gra)
@@ -13,14 +15,18 @@ nowa_gra::nowa_gra(QWidget *parent) :
     ui->setupUi(this);
     this->show();
 }
-
+/** \brief Destruktor interfejsu
+ *
+ */
 nowa_gra::~nowa_gra()
 {
     delete ui;
 }
 
 
-
+/** \brief Callbeck od rozmiaru mapy
+ * Wybieranie rozmiaru mapy
+ */
 void nowa_gra::on_pushButton_clicked()
 {   int wys = ui->comboBox->currentText().toInt();
     int szer = ui->comboBox_2->currentText().toInt();
@@ -34,6 +40,7 @@ void nowa_gra::on_pushButton_clicked()
     this->close();
 
 }
+
 void nowa_gra::on_comboBox_activated(const QString &arg1)
 {
 

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['podczep',['podczep',['../class_c_pojazd.html#a6ca2c403d42e94f6de86123afb30f63f',1,'CPojazd']]],
-  ['podczepmaszyne',['podczepMaszyne',['../class_c_ciagnik.html#ab4519a3434355d84543e76c37406cf62',1,'CCiagnik']]],
-  ['przywolaj_5ftraktor',['przywolaj_traktor',['../class_c_pole.html#ad55d0b7e22aa43541acfa150ffbaa655',1,'CPole']]]
+  ['obsluz_5fpole',['obsluz_pole',['../class_c_pole.html#a90243c7195b6847fbd46efb90f2424c0',1,'CPole']]],
+  ['odeslij_5ftraktor',['odeslij_traktor',['../class_c_pole.html#abfd3ba6eda25112d187886928a390e18',1,'CPole']]],
+  ['oknogry',['oknoGry',['../classokno_gry.html#abfcbe8e28b577ae1fa32b22243deef8d',1,'oknoGry']]]
 ];

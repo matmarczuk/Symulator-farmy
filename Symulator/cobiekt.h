@@ -2,7 +2,7 @@
 #define COBIEKT_H
 
 #include <iostream>
-/** \brief Klasa logiczna obiektu
+/** \brief Klasa abstrakcyjna logiczna obiektu
  *
  * Definiuje nazwę i pozycje obiektu i posiada funkcje wirtualna update do symulacji
  */

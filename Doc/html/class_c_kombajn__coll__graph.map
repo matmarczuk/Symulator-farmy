@@ -1,6 +1,6 @@
 <map id="CKombajn" name="CKombajn">
 <area shape="rect" id="node1" title=" " alt="" coords="5,247,88,273"/>
-<area shape="rect" id="node2" href="$class_c_pojazd.html" title="Klasa logiczna pojazdów." alt="" coords="11,171,83,197"/>
-<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa logiczna obiektu." alt="" coords="6,5,77,32"/>
+<area shape="rect" id="node2" href="$class_c_pojazd.html" title="Klasa abstracyjna logiczna pojazdów." alt="" coords="11,171,83,197"/>
+<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa abstrakcyjna logiczna obiektu." alt="" coords="6,5,77,32"/>
 <area shape="rect" id="node4" href="$class_c_maszyna.html" title="Ogólna klasa maszyny." alt="" coords="63,81,148,108"/>
 </map>

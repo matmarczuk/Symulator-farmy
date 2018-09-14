@@ -15,6 +15,7 @@ var searchData=
   ['cprzyczepa',['CPrzyczepa',['../class_c_przyczepa.html',1,'']]],
   ['csiewnik',['CSiewnik',['../class_c_siewnik.html',1,'']]],
   ['cstodola',['CStodola',['../class_c_stodola.html',1,'']]],
+  ['czas',['czas',['../class_c_czas.html#a4b2b51aadfd05a9f629f4d55701c4f3e',1,'CCzas']]],
   ['czbiornik',['CZbiornik',['../class_c_zbiornik.html',1,'']]],
   ['czy_5ftraktor_5fna_5fpolu',['czy_traktor_na_polu',['../class_c_pole.html#a2b82af53c3497611b96f05c4dc717e0a',1,'CPole']]],
   ['czy_5ftraktor_5fw_5fgarazu',['czy_traktor_w_garazu',['../class_c_pole.html#afe55a2c80adfa160d1cbda99300b34a3',1,'CPole']]]

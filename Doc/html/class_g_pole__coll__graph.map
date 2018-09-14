@@ -1,9 +1,9 @@
 <map id="GPole" name="GPole">
 <area shape="rect" id="node1" title="Klasa graficzna pola." alt="" coords="35,463,94,489"/>
-<area shape="rect" id="node2" href="$class_g_obiekt.html" title="Klasa graficzna obiektu." alt="" coords="5,132,76,159"/>
-<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa logiczna obiektu." alt="" coords="112,5,183,32"/>
+<area shape="rect" id="node2" href="$class_g_obiekt.html" title="Klasa abstrakcyjna graficzna obiektu." alt="" coords="5,132,76,159"/>
+<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa abstrakcyjna logiczna obiektu." alt="" coords="112,5,183,32"/>
 <area shape="rect" id="node4" href="$class_c_pole.html" title="Klasa logiczna pola." alt="" coords="103,373,162,400"/>
-<area shape="rect" id="node6" href="$class_c_pojazd.html" title="Klasa logiczna pojazdów." alt="" coords="137,183,209,209"/>
+<area shape="rect" id="node6" href="$class_c_pojazd.html" title="Klasa abstracyjna logiczna pojazdów." alt="" coords="137,183,209,209"/>
 <area shape="rect" id="node7" href="$class_c_maszyna.html" title="Ogólna klasa maszyny." alt="" coords="185,81,270,108"/>
 <area shape="rect" id="node8" href="$class_c_garaz.html" title="Klasa logiczna garazu." alt="" coords="262,233,329,260"/>
 <area shape="rect" id="node5" href="$class_c_ciagnik.html" title="Klasa logiczna Ciągnika." alt="" coords="135,284,211,311"/>

@@ -8,7 +8,7 @@
 #include <QtWidgets>
 #include "cobiekt.h"
 
-/** \brief Klasa graficzna obiektu
+/** \brief Klasa abstrakcyjna graficzna obiektu
  *
  * zawiera informację o wyświetlanym itemie oraz funkcję wirtualną
  */

@@ -1,5 +1,5 @@
 <map id="GGaraz" name="GGaraz">
 <area shape="rect" id="node1" title="Klasa graficzna garazu." alt="" coords="7,155,74,181"/>
-<area shape="rect" id="node2" href="$class_g_obiekt.html" title="Klasa graficzna obiektu." alt="" coords="5,80,76,107"/>
-<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa logiczna obiektu." alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node2" href="$class_g_obiekt.html" title="Klasa abstrakcyjna graficzna obiektu." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa abstrakcyjna logiczna obiektu." alt="" coords="5,5,76,32"/>
 </map>

@@ -11,7 +11,7 @@ class CMaszyna;
 #define PRAWO 3
 #define LEWO 4
 #define STOP 5
-/** \brief Klasa logiczna pojazdów
+/** \brief Klasa abstracyjna logiczna pojazdów
  *
  * Przechowuje wspolne atrybuty pojazdów
  */

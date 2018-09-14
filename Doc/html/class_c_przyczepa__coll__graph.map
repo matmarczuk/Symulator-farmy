@@ -1,5 +1,5 @@
 <map id="CPrzyczepa" name="CPrzyczepa">
 <area shape="rect" id="node1" title="Klasa logiczna przyczepy." alt="" coords="5,155,100,181"/>
 <area shape="rect" id="node2" href="$class_c_maszyna.html" title="Ogólna klasa maszyny." alt="" coords="10,80,95,107"/>
-<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa logiczna obiektu." alt="" coords="17,5,88,32"/>
+<area shape="rect" id="node3" href="$class_c_obiekt.html" title="Klasa abstrakcyjna logiczna obiektu." alt="" coords="17,5,88,32"/>
 </map>

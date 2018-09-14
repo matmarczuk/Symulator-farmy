@@ -22,6 +22,16 @@
 #include <stdlib.h>
 using namespace std;
 
+/**
+ * \mainpage
+ * \par Projekt ćwiczeniowy z przedmiotu PJC
+ * Symulator farmy
+ * \author Mateusz Marczuk
+ * \date 13.09.2018
+ * \version 1.0
+ * \par Kontakt:
+ * \a 276748@pw.edu.pl
+*/
 
 int main(int argc, char *argv[])
 {
