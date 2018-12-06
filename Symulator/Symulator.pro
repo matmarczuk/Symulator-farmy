@@ -26,58 +26,58 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    budynki.cpp \
-    cobiekt.cpp \
-    cpole.cpp \
-    cpojazd.cpp \
-    cciagnik.cpp \
-    ckombajn.cpp \
-    cmaszyna.cpp \
-    cplug.cpp \
-    csiewnik.cpp \
-    cprzyczepa.cpp \
-    citem.cpp \
-    cmapa.cpp \
-    cczas.cpp \
-    nowa_gra.cpp \
-    oknogry.cpp \
+    src/main.cpp \
+    src/mainwindow.cpp \
+    src/budynki.cpp \
+    src/cobiekt.cpp \
+    src/cpole.cpp \
+    src/cpojazd.cpp \
+    src/cciagnik.cpp \
+    src/ckombajn.cpp \
+    src/cmaszyna.cpp \
+    src/cplug.cpp \
+    src/csiewnik.cpp \
+    src/cprzyczepa.cpp \
+    src/citem.cpp \
+    src/cmapa.cpp \
+    src/cczas.cpp \
+    src/nowa_gra.cpp \
+    src/oknogry.cpp \
+    src/cgaraz.cpp \
     GUI/gobiekt.cpp \
     GUI/gpole.cpp \
     GUI/gmapa.cpp \
     GUI/gciagnik.cpp \
-    cgaraz.cpp \
     GUI/ggaraz.cpp
 
 HEADERS += \
-        mainwindow.h \
-    budynki.h \
-    cobiekt.h \
-    cpole.h \
-    cpojazd.h \
-    cciagnik.h \
-    ckombajn.h \
-    cmaszyna.h \
-    cplug.h \
-    csiewnik.h \
-    cprzyczepa.h \
-    citem.h \
-    cmapa.h \
-    cczas.h \
-    nowa_gra.h \
-    oknogry.h \
+    include/mainwindow.h \
+    include/budynki.h \
+    include/cobiekt.h \
+    include/cpole.h \
+    include/cpojazd.h \
+    include/cciagnik.h \
+    include/ckombajn.h \
+    include/cmaszyna.h \
+    include/cplug.h \
+    include/csiewnik.h \
+    include/cprzyczepa.h \
+    include/citem.h \
+    include/cmapa.h \
+    include/cczas.h \
+    include/nowa_gra.h \
+    include/oknogry.h \
+    include/cgaraz.h \
     GUI/gobiekt.h \
     GUI/gpole.h \
     GUI/gmapa.h \
-    GUI/gciagnik.h \
-    cgaraz.h \
+    GUI/gciagnik.h \   
     GUI/ggaraz.h
 
 FORMS += \
-        mainwindow.ui \
-    nowa_gra.ui \
-    oknogry.ui
+    GUI/mainwindow.ui \
+    GUI/nowa_gra.ui \
+    GUI/oknogry.ui
 
 RESOURCES += \
     farma.qrc
